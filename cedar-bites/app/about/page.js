@@ -10,7 +10,9 @@ export default function AboutPage() {
         </div>
         <div className="card p-8 text-lg leading-9 text-bark/70">
           <p>
-            Cedar Bites was created to bring a familiar Lebanese-inspired zaatar flavor into a cleaner, premium snack format. The goal is simple: a light crunch, warm flavor, and packaging that feels good enough to keep on the table.
+             Cedar Bites was created to bring a familiar Lebanese-inspired zaatar flavor into a cleaner, premium snack format. The goal is simple: a light crunch, warm flavor, and packaging that feels good to keep on the table.
+
+Each crunch is hand-rolled by our founder, giving every jar a homemade touch.
           </p>
           <p className="mt-6">
             We are starting with our signature zaatar jar and a 4-jar bundle made for sharing, gifting, and weekly snacking across Dubai.
