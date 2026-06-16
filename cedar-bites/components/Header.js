@@ -21,7 +21,7 @@ export default function Header() {
   <img
     src="/images/cedar-bites-logo.png"
     alt="Cedar Bites logo"
-    className="h-20 w-20 object-contain"
+    className="h-28 w-28 object-contain"
   />
 </Link>
 
