@@ -19,7 +19,7 @@ export const products = [
     price: 125,
     image: "/images/cedar-bites-bundle.png",
     description:
-      "Best value bundle. Includes 4 jars. Customer saves AED 12 compared to buying 4 single jars.",
+      "Save AED 12 and get free delivery with the 4-jar bundle.",
     details:
       "The best choice for weekly snacking or sharing. Includes four Cedar Bites jars and qualifies for free Dubai delivery.",
   },
