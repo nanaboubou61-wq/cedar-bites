@@ -18,9 +18,11 @@ export default function Header() {
     <header className="sticky top-0 z-50 border-b border-bark/10 bg-cream/90 backdrop-blur-xl">
       <div className="container-page flex h-20 items-center justify-between">
         <Link href="/" className="flex items-center gap-3">
-          <div className="flex h-11 w-11 items-center justify-center rounded-full bg-cedar text-lg font-bold text-white">
-            CB
-          </div>
+         <img
+  src="/images/cedar-bites-logo.png"
+  alt="Cedar Bites logo"
+  className="h-12 w-12 rounded-full object-contain"
+    />
           <div>
             <p className="text-lg font-bold tracking-tight text-bark">Cedar Bites</p>
             <p className="hidden text-xs text-bark/60 sm:block">Lebanese-inspired crunch</p>
