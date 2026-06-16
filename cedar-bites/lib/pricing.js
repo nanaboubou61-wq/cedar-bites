@@ -1,12 +1,18 @@
 export const DELIVERY_FEE = 15;
 export const FREE_DELIVERY_THRESHOLD = 125;
+export const SINGLE_JAR_PRICE = 33;
+export const FOUR_JAR_BUNDLE_PRICE = 125;
+
+export function formatAED(amount) {
+  return `AED ${Number(amount).toFixed(0)}`;
+}
 
 export function calculateItemTotal(item) {
   if (item.id === "zaatar-jar") {
     const bundleGroups = Math.floor(item.quantity / 4);
     const remainingJars = item.quantity % 4;
 
-    return bundleGroups * 125 + remainingJars * 33;
+    return bundleGroups * FOUR_JAR_BUNDLE_PRICE + remainingJars * SINGLE_JAR_PRICE;
   }
 
   return item.price * item.quantity;
