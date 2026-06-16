@@ -5,9 +5,9 @@ Next.js App Router website for Cedar Bites.
 ## Pricing rules
 
 - Single jar: AED 33
-- Bundle Pack - 4 Jars: AED 120
+- Bundle Pack - 4 Jars: AED 125
 - Dubai delivery: AED 15
-- Free Dubai delivery from AED 120 subtotal
+- Free Dubai delivery from AED 125 subtotal
 
 ## Run locally
 
