@@ -16,7 +16,7 @@ export const products = [
     slug: "bundle-4-jars",
     name: "Bundle Pack - 4 Jars",
     shortName: "4 Jar Bundle",
-    price: 120,
+    price: 125,
     image: "/images/cedar-bites-bundle.png",
     description:
       "Best value bundle. Includes 4 jars. Customer saves AED 12 compared to buying 4 single jars.",
