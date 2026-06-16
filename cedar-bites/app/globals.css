@@ -1,0 +1,37 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color: #2b2118;
+  background: #f8f1e5;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  background: #f8f1e5;
+}
+
+button, a, input, textarea, select {
+  -webkit-tap-highlight-color: transparent;
+}
+
+.container-page {
+  @apply mx-auto max-w-7xl px-5 sm:px-6 lg:px-8;
+}
+
+.btn-primary {
+  @apply inline-flex items-center justify-center rounded-full bg-cedar px-6 py-3 text-sm font-semibold text-white transition hover:opacity-90;
+}
+
+.btn-secondary {
+  @apply inline-flex items-center justify-center rounded-full border border-bark/15 bg-white/70 px-6 py-3 text-sm font-semibold text-bark transition hover:bg-white;
+}
+
+.card {
+  @apply rounded-[2rem] border border-bark/10 bg-white/70 shadow-soft backdrop-blur;
+}
