@@ -3,7 +3,7 @@ import AddToCartButton from "@/components/AddToCartButton";
 import { formatAED } from "@/lib/pricing";
 
 export default function ProductCard({ product }) {
-  const href = "/product/zaatar-crisps";
+  const href = "/product/zaatar-jar";
 
   return (
     <div className="card overflow-hidden p-5">
