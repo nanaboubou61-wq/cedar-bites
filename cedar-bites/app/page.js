@@ -53,7 +53,7 @@ export default function HomePage() {
           </div>
           <div>
             <p className="text-sm font-bold uppercase tracking-[0.25em] text-sand">Best value</p>
-            <h2 className="mt-3 text-4xl font-black sm:text-5xl">4 jars for AED 120</h2>
+            <h2 className="mt-3 text-4xl font-black sm:text-5xl">4 jars for AED 125</h2>
             <p className="mt-5 max-w-xl text-lg leading-8 text-white/75">
               Save AED 12 compared to buying 4 single jars. The bundle also gets free Dubai delivery.
             </p>
