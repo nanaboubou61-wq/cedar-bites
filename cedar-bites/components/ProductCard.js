@@ -3,7 +3,7 @@ import AddToCartButton from "@/components/AddToCartButton";
 import { formatAED } from "@/lib/pricing";
 
 export default function ProductCard({ product }) {
-  const href = product.slug === "zaatar-jar" ? "/product/zaatar-jar" : "/shop";
+  const href = "/product/zaatar-crisps";
 
   return (
     <div className="card overflow-hidden p-5">
